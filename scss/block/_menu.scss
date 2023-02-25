@@ -1,0 +1,72 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    height: 60px;
+    &__navbar{
+        display: flex;
+        justify-content: space-between; 
+        gap: 10px;
+        p{
+            cursor: pointer;
+        }
+        img{
+            cursor: pointer;
+        }
+    }
+    &__registration{
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        font-size: 14px;
+        &--login{
+            display: flex;
+            justify-content: flex-start;
+            gap: 5px; 
+            color: #23A6F0;
+            p{
+                cursor: pointer;
+            }
+            img{
+                height: 15px;
+                width: 15px;
+                cursor: pointer;
+            }
+        }
+        &--backet{
+            display: flex;
+            justify-content: flex-start;
+            gap: 5px;  
+            img{
+                height: 15px;
+                width: 15px;
+                cursor: pointer;
+            }
+            p{
+                color: #23A6F0;
+            }
+        }
+        &--loops{
+                height: 15px;
+                width: 15px;
+                cursor: pointer;
+        }
+        &--heart{
+            display: flex;
+            justify-content: flex-start; 
+            gap: 5px; 
+            img{
+                height: 15px;
+                width: 15px;
+                cursor: pointer;
+            }
+            p{
+                color: #23A6F0;
+            }
+        }
+    }
+}
+.menu__media{
+    display: none;
+}

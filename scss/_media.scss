@@ -1,0 +1,213 @@
+@media screen and (max-width: 1200px) {
+    .header{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header{
+        &__inf{
+            display: none;
+        }
+    }
+
+    .menu{
+        h1{
+            font-size: 15px;
+        }
+        &__navbar{
+         font-size: 12px;
+        }
+        &__registration{
+            font-size: 12px;
+        }
+    }
+
+    .head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 55px;
+        &__data{
+            display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        &__img{
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 35px;
+        gap: 30px;
+    }
+
+    .bestseller{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__img{
+            display: grid;
+            grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+            gap: 20px;
+        }
+        &__last{
+            display: grid;
+            grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+            gap: 20px;
+        }
+    }
+
+    .marketing{
+        &__main{
+            display: grid;
+            grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+            place-items: center;
+            gap: 35px;
+        }
+    }
+
+    .footer{
+        &__head{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &--img{
+                margin-top: 25px;
+            }
+        }
+        hr{
+            display: none;
+        }
+        &__main{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            &--inform{
+                h3{
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header{
+        display: none;
+    }
+    .head{
+        margin-top: 270px;
+    }
+    .menu__media{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        color: #252B42;
+        font-weight: 700;
+        padding: 10px 15px;
+        p{
+            cursor: pointer;
+        }
+        img{
+            cursor: pointer;
+        }
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        h1{
+            display: none;
+        }
+        &__navbar{
+            display: flex;
+            flex-direction: column;
+            font-size: 14px;
+            padding: 10px 0;
+            img{
+                display: none;
+            }
+        }
+    
+        &__registration{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 14px;
+            padding: 10px 0;
+        }
+    }
+    .footer{
+        &__head{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &--img{
+                margin-top: 25px;
+            }
+        }
+        &__main{
+            display: grid;
+            grid-template: repeat(3, 1fr) / repeat(2, 1fr);     
+            &--inform{
+                h3{
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .bestseller{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__img{
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            gap: 20px;
+        }
+        &__last{
+            display: none;
+        }
+    }
+    .marketing{
+        &__main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 35px;
+        }
+    }
+    .footer{
+            &__head{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;        
+            }
+            &__main{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                &--inform{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+            }
+    }
+}

@@ -1,0 +1,62 @@
+.footer{
+    &__head{
+        display: flex;
+        justify-content: space-between;
+        padding: 53px 0;
+        h3{
+            font-size: 24px;
+            font-weight: 700px;
+        }
+        &--img{
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            img{
+                cursor: pointer;
+            }
+        }
+    }
+    hr{
+        border: 1px solid #E6E6E6;  
+    }
+    &__main{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        &--inform{
+            h3{
+                font-size: 16px;
+                padding-bottom: 20px;
+            }
+            p{
+                margin: 10px 0;
+                cursor: pointer;
+                font-size: 14px;
+            }
+            input{
+                padding: 18px 25px;
+                color: #737373;
+                background: #E6E6E6;
+            }
+            button{
+                padding: 18px 25px;
+                background: #23A6F0;
+                cursor: pointer;
+                color: white;
+            }
+            &-button{
+                display: flex;
+                justify-content: flex-start;
+                gap: 0;
+            }
+        }
+    }
+    &__last{
+        background: #FAFAFA;
+        &--inf{
+            padding: 25px 50px;
+            font-size: 14px;
+        }
+    }
+}

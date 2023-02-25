@@ -1,0 +1,12 @@
+.marketing{
+    background: #FAFAFA;
+    &__main{
+        display: flex;
+        justify-content: space-between;
+        background: #FAFAFA;
+        padding: 70px 0;
+        img{
+            cursor: pointer;
+        }
+    }
+}

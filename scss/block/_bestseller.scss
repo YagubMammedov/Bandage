@@ -1,0 +1,65 @@
+.bestseller{
+    background-color: #FAFAFA;
+    h3{
+        margin-top: 35px;
+        padding: 20px 0;
+        font-size: 24px;
+    }
+    hr{
+        border: 1px solid #BDBDBD;
+        margin: 25px 0;
+    }
+    &__img{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+        &--inf{
+            background-color: white;
+            h5{
+                color: #252B42;
+                padding: 20px 0 20px 25px;
+                font-size: 16px;
+            }
+            &_department{
+                padding: 15px 0 15px 25px;
+                font-size: 14px;
+            }
+            &_price{
+                font-size: 14px;
+                padding: 15px 0 40px 25px;
+                color: #BDBDBD;
+                span{
+                    color: #23856D;
+                }
+            }
+           
+        }
+    }
+    &__last{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+        margin-top: 25px;
+        &--inf{
+            background-color: white;
+            h5{
+                color: #252B42;
+                padding: 20px 0 20px 25px;
+                font-size: 16px;
+            }
+            &_department{
+                padding: 15px 0 15px 25px;
+                font-size: 14px;
+            }
+            &_price{
+                font-size: 14px;
+                padding: 15px 0 40px 25px;
+                color: #BDBDBD;
+                span{
+                    color: #23856D;
+                }
+            }
+           
+        }
+    }
+}
